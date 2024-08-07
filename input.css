@@ -1,0 +1,242 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    margin-top: 0;
+    width: auto;
+    height: 30px;
+    display: flex;
+    margin-left: 256px;
+    margin-top: 1.7rem;
+  
+}
+.myFixed button{
+    cursor: pointer;
+  
+}
+ 
+
+.dash{
+    gap: 1rem;
+
+}
+.dash h2{
+    font-size: 22px;
+}
+.profile{
+    display: flex;
+    flex-direction: row;
+     margin-right: 3rem;
+     padding-top: 0.5rem ;
+    align-items: center;
+   gap: 5rem;
+    width: auto;
+
+     
+}
+.profile p{
+    font-size: 10px;
+    color: slategray;
+}
+.proImage{
+    background-color: #FABB18;
+   
+    border-radius: 10rem; 
+}
+.search{
+    width: 350px;
+    padding-left:1rem;
+    padding-right:1rem;
+    padding-top:10px;
+    padding-bottom:10px;
+    border-radius: 1rem;
+    background-color: rgb(252, 249, 249);
+}
+.searchIcon{
+    position: absolute;
+    width: 15px;
+    right: 15px;
+    top: 12px;
+    color: rgb(184, 178, 178);
+}
+ .workspace{
+    display: flex;
+    flex-direction: column;
+    padding: 0.6rem 1rem;
+    border-radius: 1rem;
+    
+    
+ }
+ .workspace div{
+    width: 180px;
+    padding-bottom: 1rem;
+ }
+ .workspace p{
+    color: gray;
+ }
+ .bodycontent{
+    margin-top: 0;
+    width: auto;
+    padding: 0 4rem 0 0;
+    height: auto;
+    display: flex;
+    margin-left: 250px;
+    margin-top: 1.7rem;
+     
+    background-color: #F9F9F9;
+    border-radius: 2rem 0 0 0 ;
+ }
+ .Mydiv{
+    width: 100%;
+    height: 100%;
+    
+ }
+ .Tracker{
+    padding: 1rem;
+    border-radius: 1rem;
+    gap: 2rem;
+ }
+
+ .trakerChild{
+    background-color: #FABB18;
+    border-radius: 1rem;
+    padding: 1rem;
+    gap: 2rem;
+    
+ }
+ .Tasks{
+    width: 320px;
+    height: 170px;
+    padding: 1rem 2rem 2rem 1rem;
+    border-radius: 1rem;
+    gap: 1rem;
+    justify-content: space-between;
+    cursor: pointer;
+     
+ }
+ .gap{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    justify-content: space-between;
+    padding: 0.5rem 0 0rem 0.5rem;
+ }
+ .bgYellow{
+    
+    background-color: #fcf1d7;
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+     
+     
+ }
+ .Latest{
+    background-color: white;
+    width: 565px;
+    padding: 1.5rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    
+ }
+ .Latest .recents{
+    padding: 5px;
+   
+ 
+    width: 100%;
+    flex-wrap: wrap;
+
+ }
+ .active1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ 
+    width: 100%;
+ }
+ .active1 p{
+    font-size: 19px;
+    font-weight: 600;
+ }
+ .recentprofile{
+    background-color: #FABB18;
+    overflow: hidden;
+    width: 40px;
+    height: 40px;
+    border-radius: 2rem;
+    padding: 3px 2px 0 2px;
+ }
+ .active2{
+    padding: 0.6rem;
+    border-radius: 1rem;
+    margin-top: 2rem;
+ }
+ .myButton{
+    background-color: #fcf1d7;
+    font-weight: 500;
+    border-radius: 0.5rem;
+ padding: 0 0.8rem;
+ }
+ .recentImages{
+    padding: 1rem 0.2rem 1rem 0.2rem;
+ }
+ .projects{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0 0.5rem;
+    margin-top: 2.2rem;
+ }
+ .projecOnce{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 1rem;
+    padding: 0.6rem;
+ }
+   .Myimg{
+    padding: 0.6rem;
+    background-color: #fcf1d7;
+    border-radius: 1rem;
+     
+ }
+.range{
+    background-color: rgb(199, 199, 199);
+    width: 170px;
+    height: 2px;
+}
+.innerRange{
+    height: 2px;
+    
+    background-color: #FABB18;
+}
+.LastSection{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    
+}
+.lastsectionText{
+    color: rgb(136, 136, 136);
+    gap: 12rem;
+     
+
+}
+.black{
+    align-self: end;
+    background-color:  black;
+     
+    color: white;
+    border-radius: 0.6rem;
+    padding: 0.5rem 1rem;
+    font-size: 12px;
+    margin-top: 0.5rem;
+}
+.TODO{
+    gap: 1rem;
+}

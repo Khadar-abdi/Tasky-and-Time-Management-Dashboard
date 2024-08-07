@@ -1,0 +1,384 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Task Management</title>
+    <link href="./output.css" rel="stylesheet">
+    <link href="./input.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body style=" font-family: 'Poppins', sans-serif;" class="  h-[100vh]   ">
+    <div class="       min-w-screen w-screen   h-[100vh]   ">
+        <div class=" fixed   h-screen w-64    pl-3 ">
+            <img src="./Image/TASKY..png" alt="logo" class="p-4 cursor-pointer">
+            <div class="flex flex-col mt-10     h-screen">
+                <div class=" myFixed flex flex-col      px-4 gap-3">
+                    <button class="flex flex-row bg-black rounded-xl text-white font-normal w-[145px] h-[50px] text-sm gap-4 justify-start items-center ">
+                            <img src="./Image/Group 41.svg" alt="dashboard" class=" ml-4 w-[13px] h-[19px]">
+                            Dashboard
+                        </button>
+                    <button class="flex flex-row bg-white rounded-xl text-black font-semibold  w-[145px] h-[50px] text-sm gap-4 justify-start items-center ">
+                            <img src="./Image/Combined Shape.svg" alt="analytic" class="  ml-4 w-[13px] h-[19px]">
+                            analytic
+                        </button>
+                    <button class="flex flex-row bg-white rounded-xl text-black  font-semibold w-[145px] h-[50px] text-sm gap-4  justify-start  items-center ">
+                            <img src="./Image/Time-schedule.svg" alt="Timesheets" class=" ml-4 w-[13px] h-[19px] ">
+                            Timesheets
+                        </button>
+                    <button class="flex flex-row bg-white rounded-xl text-black font-semibold  w-[145px] h-[50px] text-sm gap-4 justify-start items-center ">
+                            <img src="./Image/Group 44.svg" alt="todo" class=" ml-4 w-[13px] h-[19px]">
+                            Todo
+                        </button>
+                    <button class="flex flex-row bg-white rounded-xl text-black font-semibold  w-[145px] h-[50px] text-sm gap-4 justify-start items-center ">
+                            <img src="./Image/Combined Shape (1).svg" alt="report" class=" ml-4 w-[13px] h-[19px]">
+                            Report
+                        </button>
+                    <button class="flex flex-row bg-white rounded-xl text-black font-semibold  w-[145px] h-[50px] text-sm gap-4 justify-start items-center ">
+                            <img src="./Image/Group 45.svg" alt="setting" class=" ml-4 w-[13px] h-[19px]">
+                            Setting
+                        </button>
+                </div>
+                <div class=" workspace  mt-14   border border-slate-100  gap-1       ">
+                    <p class=" text-slate-300  text-sm">workspace</p>
+                    <div class="flex flex-row  w-fit h-fit py-4  gap-3 justify-between  ">
+                        <h3 class="text-slate-300 font-bold ">Matrix Domain</h3>
+                        <img src="./Image/Angle-down.svg" alt="domain" class="bg-yellow-100 rounded-lg">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" nav  w-screen   h-[120px]  flex  justify-between   items-center   my-4   ">
+            <div class="dash flex flex-row  justify-center items-center ml-5 ">
+                <img src="./Image/menu 1.svg" alt="dashboard" width="16px">
+                <h2 class="text-xl text-black font-bold "> Dashboard</h2>
+            </div>
+            <div class="  flex flex-row w-screen relative">
+                <input type="text" placeholder="Search Project" class="search  w-full  text-sm bg-gray-100 border border-slate-50 outline-none">
+                <img src="./Image/Group 17 (1).svg" class=" searchIcon     " width="auto" alt="search">
+            </div>
+            <div class="profile px-4  min-h-screen   text-center">
+                <img src="./Image/ic_bell.svg" class="w-auto" alt="notification">
+                <div class="flex flex-col  items-end">
+                    <h3>Khader Abdi</h3>
+                    <p class="   flex flex-row">UI/ux Designer</p>
+                </div>
+                <div class="proImage    bg-yellow-500 overflow-hidden p-1  rounded-full ">
+                    <img src="./Image/mg 1.png" class="     " alt="Profile">
+                </div>
+            </div>
+        </div>
+        <div class="bodycontent   flex flex-col  mb-5 ">
+            <div class=" Mydiv flex flex-row justify-between items-center      px-5">
+                <div class=" flex flex-col gap-3 mt-10">
+                    <h2 class=" text-3xl font-bold">Today</h2>
+                    <p class="font-bold ">mon 05 2024 | 100:00 AM</p>
+                </div>
+                <div class=" Tracker flex flex-row   items-center     mt-10 bg-white ">
+                    <h2 class=" text-xl font-bold ">Start time Tracker</h2>
+                    <div class=" trakerChild p-7 ">
+                        <img src="./Image/Polygon 1.svg" width="16px" alt="youtube icon">
+
+                    </div>
+                </div>
+
+            </div>
+            <div class=" Mydiv flex flex-row justify-between items-center     px-5     ">
+
+                <div class=" Tasks flex flex-col justify-between items-center     mt-10 bg-white ">
+
+                    <div class="gap flex flex-row   items-center ">
+                        <h3>Weekly activity</h3>
+
+                        <img src="./Image/Group 50.svg" width="3px" alt="youtube icon">
+                    </div>
+                    <div class="gap  flex flex-row  items-center ">
+                        <h2 class="text-3xl font-bold">0%</h2>
+                        <div class=" bgYellow  p-5  w-full bg-yellow-500">
+                            <img src="./Image/Group 48 (1).svg" class="  " width="35px " alt="youtube icon ">
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class=" Tasks flex flex-col justify-between items-center     mt-10 bg-white ">
+
+                    <div class="gap flex flex-row   items-center ">
+                        <h3>Worked this week</h3>
+
+                        <img src="./Image/Group 50.svg" width="3px" alt="youtube icon">
+                    </div>
+                    <div class="gap  flex flex-row  items-center ">
+                        <h2 class="text-3xl font-bold">45:00:5</h2>
+                        <div class=" bgYellow  p-5  w-full bg-yellow-500">
+                            <img src="./Image/Group 47.svg" class="  " width="35px " alt="youtube icon ">
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class=" Tasks flex flex-col justify-between items-center     mt-10 bg-white ">
+
+                    <div class="gap flex flex-row   items-center ">
+                        <h3>Project Worked</h3>
+
+                        <img src="./Image/Group 50.svg" width="3px" alt="youtube icon">
+                    </div>
+                    <div class="gap  flex flex-row  items-center ">
+                        <h2 class="text-3xl font-bold">02</h2>
+                        <div class=" bgYellow  p-5  w-full bg-yellow-500">
+                            <img src="./Image/Combined Shape (2).svg" class="  " width="35px " alt="youtube icon ">
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="  flex flex-row  ">
+                <div class="Latest flex flex-col">
+                    <div class="recents     ">
+                        <div class=" active1       ">
+                            <p>Recent Activity</p>
+                            <img src="./Image/Group 50.svg" width="4px" alt="double dots">
+                        </div>
+                    </div>
+                    <div class=" active2 px-3  flex flex-row justify-between border border-slate-100  ">
+                        <div class="flex flex-row items-center gap-2 font-bold text-sm ">
+                            <div class="recentprofile">
+                                <img src="./Image/mg 1.png" class="     " alt="recent profile">
+                            </div>
+                            <p>Khader abdi</p>
+                        </div>
+                        <button class=" myButton text-sm px-3   "> View All</button>
+
+                    </div>
+                    <div class=" recentImages flex flex-row flex-wrap gap-2">
+
+                        <img src="./Image/recentImages/Rectangle 168.png" width="160px" alt="recent Images">
+                        <img src="./Image/recentImages/Rectangle 169.png" width="160px" alt="recent Images">
+                        <img src="./Image/recentImages/Rectangle 170.png" width="160px" alt="recent Images">
+                        <img src="./Image/recentImages/Rectangle 187.png" width="160px" alt="recent Images">
+                        <img src="./Image/recentImages/Rectangle 189.png" width="160px" alt="recent Images">
+                    </div>
+                </div>
+                <div class="Latest flex flex-col">
+                    <div class="recents     ">
+                        <div class=" active1       ">
+                            <p> Projects</p>
+                            <img src="./Image/Group 50.svg" width="4px" alt="double dots">
+                        </div>
+                        <div class="projects">
+                            <div class="projecOnce border border-slate-100 ">
+                                <div class="flex flex-row gap-2 items-center ">
+                                    <div class="Myimg">
+
+                                        <img src="./Image/Combined Shape (2).svg" class="  " width="15px " alt="Project ">
+                                    </div>
+                                    <h4 class="font-bold">Project One</h4>
+                                </div>
+                                <div class=" projectRange  flex flex-row items-center gap-2  ">
+                                    <button class=" myButton text-sm p-3   ">00:40:00</button>
+                                    <div class="range">
+                                        <div class="innerRange w-4/5 h-full">
+
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="projecOnce border border-slate-100 ">
+                                <div class="flex flex-row gap-2 items-center ">
+                                    <div class="Myimg">
+
+                                        <img src="./Image/Combined Shape (2).svg" class="  " width="15px " alt="Project ">
+                                    </div>
+                                    <h4 class="font-bold">Project Two</h4>
+                                </div>
+                                <div class=" projectRange  flex flex-row items-center gap-2  ">
+                                    <button class=" myButton text-sm p-3   ">00:10:00</button>
+                                    <div class="range">
+                                        <div class="innerRange">
+
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="projecOnce border border-slate-100 ">
+                                <div class="flex flex-row gap-2 items-center ">
+                                    <div class="Myimg">
+
+                                        <img src="./Image/Combined Shape (2).svg" class="  " width="15px " alt="Project ">
+                                    </div>
+                                    <h4 class="font-bold">Project three</h4>
+                                </div>
+                                <div class=" projectRange  flex flex-row items-center gap-2  ">
+                                    <button class=" myButton text-sm p-3   ">00:20:00</button>
+                                    <div class="range">
+                                        <div class="innerRange">
+
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="projecOnce border border-slate-100 ">
+                                <div class="flex flex-row gap-2 items-center ">
+                                    <div class="Myimg">
+
+                                        <img src="./Image/Combined Shape (2).svg" class="  " width="15px " alt="Project ">
+                                    </div>
+                                    <h4 class="font-bold">Project Four</h4>
+                                </div>
+                                <div class=" projectRange  flex flex-row items-center gap-2  ">
+                                    <button class=" myButton text-sm p-3   ">00:30:00</button>
+                                    <div class="range">
+                                        <div class="innerRange">
+
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                            <button class="black"> View All</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="  flex flex-row  ">
+                <div class="Latest flex flex-col">
+                    <div class="recents     ">
+                        <div class=" active1       ">
+                            <p>Members </p>
+                            <img src="./Image/Group 50.svg" width="4px" alt="double dots">
+                        </div>
+                    </div>
+                    <div class="LastSection gap-2">
+                        <div class="lastsectionText flex flex-row   text-slate-400">
+                            <p>Member Info</p>
+                            <div class="flex flex-row gap-4">
+
+                                <p>Today</p>
+                                <p>This Week</p>
+                            </div>
+                        </div>
+                        <div class=" flex flex-row items-center  justify-between p-4 border border-slate-100  rounded-xl">
+                            <div class="flex flex-row justify-between  gap-4 items-center">
+
+                                <div class="recentprofile">
+                                    <img src="./Image/mg 1.png" class="     " alt="recent profile">
+                                </div>
+                                <div>
+                                    <h3 class="text-xl">Khader abdi</h3>
+                                    <p class="font-bold text-sm">Dashboard Design</p>
+                                    <p class="text-sm">Software Developer</p>
+                                </div>
+                            </div>
+                            <div class="flex flex-row gap-3">
+                                <button class=" myButton text-sm px-3   "> 00:40:00</button>
+                                <button class=" myButton text-sm px-3   "> 08:00:00</button>
+                            </div>
+                        </div>
+                        <div class=" flex flex-row items-center  justify-between p-4 border border-slate-100  rounded-xl">
+                            <div class="flex flex-row justify-between  gap-4 items-center">
+
+                                <div class="recentprofile">
+                                    <img src="./Image/mg 1.png" class="     " alt="recent profile">
+                                </div>
+                                <div>
+                                    <h3 class="text-xl">Khader abdi</h3>
+                                    <p class="font-bold text-sm">Dashboard Design</p>
+                                    <p class="text-sm">Software Developer</p>
+                                </div>
+                            </div>
+                            <div class="flex flex-row gap-3">
+                                <button class=" myButton text-sm px-3   "> 00:40:00</button>
+                                <button class=" myButton text-sm px-3   "> 08:00:00</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="Latest flex flex-col">
+                    <div class="recents     ">
+                        <div class=" active1       ">
+                            <p>To Do </p>
+                            <img src="./Image/Group 50.svg" width="4px" alt="double dots">
+                        </div>
+                    </div>
+                    <div class="LastSection gap-2">
+                        <div class="lastsectionText flex flex-row   text-slate-400">
+                            <p>To Dos</p>
+                            <div class="flex flex-row gap-4">
+
+                                <p>Today</p>
+
+                            </div>
+                        </div>
+                        <div class=" TODO flex flex-row items-center  justify-between p-4 border border-slate-100  rounded-xl">
+                            <div class="flex flex-row justify-between  gap-4 items-center">
+
+                                <div class="Myimg">
+
+                                    <img src="./Image/Combined Shape (2).svg" class="  " width="15px " alt="Project ">
+                                </div>
+
+
+                                <p class="font-bold text-sm">Dashboard Design</p>
+
+
+                            </div>
+                            <div class="flex flex-row gap-3 items-center ">
+                                <button class=" myButton text-sm px-3   "> 00:40:00</button>
+                                <div class="range">
+                                    <div class="innerRange">
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class=" TODO flex flex-row items-center  justify-between p-4 border border-slate-100  rounded-xl">
+                            <div class="flex flex-row justify-between  gap-2 items-center">
+
+                                <div class="Myimg">
+
+                                    <img src="./Image/Combined Shape (2).svg" class="  " width="15px " alt="Project ">
+                                </div>
+
+
+                                <p class="font-bold text-sm">Dashboard Design</p>
+
+
+                            </div>
+                            <div class="flex flex-row gap-3 items-center ">
+                                <button class=" myButton text-sm px-3   "> 00:40:00</button>
+                                <div class="range">
+                                    <div class="innerRange">
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <button class="black "> View All</button>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
